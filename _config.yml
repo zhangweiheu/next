@@ -219,7 +219,7 @@ scroll_to_more: true
 # Automatically Excerpt. Not recommand.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 
@@ -238,7 +238,7 @@ auto_excerpt:
 
 # MathJax Support
 mathjax:
-  enable: false
+  enable: true
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
@@ -246,10 +246,10 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: zhangweiheu
 
 # Disqus
 #disqus_shortname:
@@ -265,7 +265,7 @@ mathjax:
 #add_this_id:
 
 # Share
-duoshuo_share: true
+duoshuo_share: false
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -273,7 +273,7 @@ duoshuo_share: true
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-77667812-1
 
 # CNZZ count
 #cnzz_siteid:
@@ -286,7 +286,7 @@ duoshuo_info:
   ua_enable: true
   admin_enable: false
   user_id: 0
-  admin_nickname: Author
+  admin_nickname: 博主
 
 
 # Facebook SDK Support.
@@ -302,22 +302,22 @@ facebook_sdk:
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
-  enable: false
+  enable: true
   num_of_posts: 10
 
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: gr2dyLVOM8bXlljKvmp94yLL-gzGzoHsz
+  app_key: tkBNlQLOXAOtPaU67rkfqrLk
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
